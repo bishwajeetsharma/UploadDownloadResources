@@ -32,6 +32,32 @@ public class FileDB {
 		this.uploaded = uploaded;
 		this.file = file;
 	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Date getUploaded() {
+		return uploaded;
+	}
+	public void setUploaded(Date uploaded) {
+		this.uploaded = uploaded;
+	}
+	public byte[] getFile() {
+		return file;
+	}
+	public void setFile(byte[] file) {
+		this.file = file;
+	}
+	
+	
 	
 	
 }
