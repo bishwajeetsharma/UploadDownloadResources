@@ -1,1 +1,1 @@
-This is just a fun springboot project to upload and download resources. Resources are saved in a mysql db.
+This is just a fun springboot project to lean SSL/TLS communication,(One-way, two-way ssl) using springboot.
