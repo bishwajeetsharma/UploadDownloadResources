@@ -1,0 +1,30 @@
+package com.example.bishwsha;
+
+import java.io.FileNotFoundException;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+import com.example.bishwsha.keystore.LoadCertificates;
+
+@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+public class DemoApplication {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		SpringApplication.run(DemoApplication.class, args);
+		System.out.println("application started!");
+		LoadCertificates lcerts= new LoadCertificates();
+		lcerts.greeting();
+		//lcerts.loadCertificate();
+		 
+	}
+	
+	@Bean
+	public RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
+
+}

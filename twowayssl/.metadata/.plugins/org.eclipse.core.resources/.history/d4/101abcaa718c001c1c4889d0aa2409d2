@@ -1,0 +1,7 @@
+server.port=8090
+server.ssl.key-store=classpath:keystore/springkey.p12
+server.ssl.key-alias=bishwajeet
+server.ssl.enabled=true
+server.ssl.key-store-password=password
+server.ssl.trust-store=classpath:truststore
+server.ssl.trust-store-password=password

@@ -17,6 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,6 +31,7 @@ import com.biswsha.ssl.model.FileDB;
 import com.biswsha.ssl.service.FileService;
 
 @Controller
+@CrossOrigin("*")
 public class Home {
 
 	@Autowired
@@ -44,6 +46,11 @@ public class Home {
 		return consumer.consumeApi();
 	}
 	
+	@RequestMapping("/helloserver")
+	@ResponseBody
+	public String helloServer() {
+		return "Hello from server on port 8080";
+	}
 	@RequestMapping("/upload")
 	public String uploadFile() {
 		

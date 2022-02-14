@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Download File</title>
+</head>
+
+<body>
+	<form method="get" action="download" th:object="${filenames}">
+		<select name="fileid" >
+			<option th:each="fn : ${filenames}" th:value="${fn.getId}" th:text="${fn.getName}"></option>
+		</select>
+		<button type="submit">Download</button>
+	</form>
+</body>
+
+</html>

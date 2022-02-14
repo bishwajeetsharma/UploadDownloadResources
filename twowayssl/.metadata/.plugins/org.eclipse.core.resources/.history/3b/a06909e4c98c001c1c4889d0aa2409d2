@@ -1,0 +1,16 @@
+package com.example.bishwsha.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@CrossOrigin("*")
+public class HomeController {
+	
+	@RequestMapping("/helloclient")
+	public String helloClient() {
+		return "Hello from client at port 8090";
+	}
+
+}

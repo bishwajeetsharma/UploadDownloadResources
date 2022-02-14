@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="org.springframework.http.HttpMethod"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="org.springframework.core.io.AbstractFileResolvingResource"><rhs name\="org.springframework.core.io.ClassPathResource"/></lhs><lhs name\="org.springframework.core.io.AbstractResource"><rhs name\="org.springframework.core.io.ClassPathResource"/></lhs><lhs name\="org.springframework.core.io.Resource"><rhs name\="org.springframework.core.io.ClassPathResource"/></lhs><lhs name\="org.springframework.core.io.InputStreamSource"><rhs name\="org.springframework.core.io.ClassPathResource"/></lhs><lhs name\="org.springframework.core.io.ClassPathResource"><rhs name\="org.springframework.core.io.ClassPathResource"/></lhs><lhs name\="javax.net.ssl.SSLContext"><rhs name\="javax.net.ssl.SSLContext"/></lhs><lhs name\="org.springframework.http.client.ClientHttpRequestFactory"><rhs name\="org.springframework.http.client.HttpComponentsClientHttpRequestFactory"/></lhs><lhs name\="org.apache.http.conn.socket.LayeredConnectionSocketFactory"><rhs name\="org.apache.http.conn.ssl.SSLConnectionSocketFactory"/></lhs><lhs name\="org.apache.http.conn.socket.ConnectionSocketFactory"><rhs name\="org.apache.http.conn.ssl.SSLConnectionSocketFactory"/></lhs><lhs name\="org.apache.http.conn.ssl.SSLConnectionSocketFactory"><rhs name\="org.apache.http.conn.ssl.SSLConnectionSocketFactory"/></lhs><lhs name\="org.springframework.beans.factory.DisposableBean"><rhs name\="org.springframework.http.client.HttpComponentsClientHttpRequestFactory"/></lhs><lhs name\="org.springframework.http.client.HttpComponentsClientHttpRequestFactory"><rhs name\="org.springframework.http.client.HttpComponentsClientHttpRequestFactory"/></lhs></history>
+content_assist_number_of_computers=15
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
